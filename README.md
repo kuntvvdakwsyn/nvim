@@ -1,7 +1,8 @@
 # nvim
 Welcome to my nvim config!
 
-To install it run:
+Install this packages: neovim git curl wget unzip tar gzip ripgrep fd tree-sitter-cli nodejs npm python python-pip python-pynvim base-devel luarocks ttf-jetbrains-mono-nerd wl-clipboard xclip
+To install it, run:
 ``` bash
-git clone https://github.com/kuntvvdakwsyn/nvim ; cd nvim;python3 install.py
-```
+git clone https://github.com/kuntvvdakwsyn/nvim nvim;nvim
+``
