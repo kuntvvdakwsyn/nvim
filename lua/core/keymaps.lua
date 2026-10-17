@@ -1,6 +1,6 @@
 vim.keymap.set("n", "<leader>w", "<cmd>w<CR>", { desc = ":w" })
 vim.keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = ":q" })
-vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "file tree" })
+vim.keymap.set("n", "<leader>e", ":NvimTreeOpen<CR>", { silent = true, desc = "Deschide nvim-tree" })
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>", { desc = "clear highlight" })
 
 vim.keymap.set("n", "<S-k>", "<cmd>BufferLineCycleNext<CR>")
