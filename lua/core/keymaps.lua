@@ -14,3 +14,8 @@ vim.keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<CR>")
 vim.keymap.set("n", "<leader>c", function()
   vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end)
+
+vim.keymap.set("n", "<leader>re", vim.diagnostic.open_float)
+vim.keymap.set("n", "<leader>rw", function()
+  vim.diagnostic.setloclist({ open = true })
+end)
